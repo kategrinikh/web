@@ -1,12 +1,13 @@
 table {
+background-color:lavender;
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 font-size: 14px;
 border-collapse: collapse;
 text-align: center;
 }
 th, td:first-child {
-background: #FFDAB9;
-color: DarkCyan;
+background-color: RosyBrown;
+color: #FFF8DC;
 padding: 10px 20px;
 }
 th, td {
@@ -15,7 +16,7 @@ border-width: 0 1px 1px 0;
 border-color: white;
 }
 td {
-background: #D8E6F3;
+background:#FFDA;
 }
 th:first-child, td:first-child {
 text-align: left;
