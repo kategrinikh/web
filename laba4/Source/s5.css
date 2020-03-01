@@ -1,0 +1,20 @@
+.square{
+	width:200px;
+	height:200px;
+	top: 0px;
+	background: blue;
+	position:relative;
+	transition: transform .2s ease-in-out;
+	animation: 3s infinite Color;
+}
+.square:hover{
+	transform:scale(2,2) translate3d(300px, 0px,0px);
+}
+
+@keyframes Color{
+	0% {background:orange;}
+	7%{background: red;}
+	50% {background: purple;}
+	93%{background: blue;}
+	100% {background: green;}
+}
